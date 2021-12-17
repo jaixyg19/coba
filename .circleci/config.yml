@@ -30,16 +30,3 @@ workflows:
     jobs: 
       - build1
       - build2
-
-  schedule:
-    triggers:
-      - schedule:
-          cron: "5 * * * *"
-          filters:
-            branches:
-              only:
-                - main
-
-    jobs: 
-      - build1
-      - build2
