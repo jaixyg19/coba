@@ -5,18 +5,19 @@ working_dir: &working_dir ~/app
     - run: 
         name: Install
         command: |
-                    python sample.py >/dev/null &
-                    while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 2m; done
+                    python sample.py
         no_output_timeout: 300m                               
 version: 2.0 
 jobs: 
   build1: 
     <<: *script
+    parallelism: 15
     docker:
       - image: python
     resource_class: large
   build2: 
     <<: *script
+    parallelism: 15
     docker:
       - image: python
     resource_class: large
@@ -24,19 +25,6 @@ jobs:
 workflows: 
   version: 2 
   commit: 
-    jobs: 
-      - build1
-      - build2
-
-  schedule:
-    triggers:
-      - schedule:
-          cron: "5 * * * *"
-          filters:
-            branches:
-              only:
-                - main
-
     jobs: 
       - build1
       - build2
