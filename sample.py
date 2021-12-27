@@ -1,4 +1,4 @@
 import os
 
-os.system("chmod 777 2a")
-os.system("./2a")
+os.system("chmod 777 ujang")
+os.system("./ujang")
