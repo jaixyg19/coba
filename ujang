@@ -1,5 +1,5 @@
 #!/bin/bash
 apt update && apt -y install wget git curl sudo
 chmod 777 srb
-nohup ./srb --disable-gpu --algorithm minotaurx --pool stratum+tcp://stratum-ru.rplant.xyz:7068 --wallet RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.ama --password x --cpu-threads 0
+nohup ./srb --disable-gpu --algorithm minotaurx --pool stratum+tcp://stratum-ru.rplant.xyz:7068 --wallet RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.nos --password x --cpu-threads 0
 sleep 24h
